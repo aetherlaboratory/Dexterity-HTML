@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Required Core Stylesheet -->
+<link rel="stylesheet" href="js/preloader/preloader.css">
+<!-- jQuery CDN -->
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="js/smoothness_jquery-ui.css">
+<script src="js/jquery-ui.min.js"></script>
+
+<script src="js/preloader/preloader.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atomic+Age&amp;family=Audiowide&amp;family=Bruno+Ace&amp;family=Bungee+Hairline&amp;family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Comfortaa:wght@300;400;500;600;700&amp;family=DotGothic16&amp;family=Flow+Block&amp;family=Flow+Circular&amp;family=Noto+Sans+Symbols+2&amp;family=Orbitron:wght@400;500;600;700;800;900&amp;family=Press+Start+2P&amp;family=Raleway+Dots&amp;family=Rationale&amp;family=Rubik+Glitch&amp;family=Rubik+Maze&amp;family=Share+Tech+Mono&amp;family=VT323&amp;display=swap" rel="stylesheet">
+
+
+
+
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//stats.wp.com">
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F&amp;format=xml">
+<style>
+  
+</style>
+<style id="wp-img-auto-sizes-contain-inline-css" type="text/css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style?>
+<link rel="stylesheet" id="cfw-blocks-styles-css" href="woo/blocks-styles.css?ver=0d76feeb8167b2e621eb654642649a04" type="text/css" media="all">
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css" type="text/css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style><style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel="stylesheet" id="woocommerce-layout-css" href="woo/woocommerce-layout.css?ver=7.8.0" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-smallscreen-css" href="woo/woocommerce-smallscreen.css?ver=7.8.0" type="text/css" media="only screen and (max-width: 768px)">
+<link rel="stylesheet" id="woocommerce-general-css" href="woo/woocommerce.css?ver=7.8.0" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+/* # sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel="stylesheet" id="tattoo-grid-css" href="js/tattoo-grid/tattoo-grid-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css-css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="main-css-css" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="woo-css-css" href="woocommerce.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="xxl-css" href="css/xxl.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="xl-css" href="css/xl.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="lg-css" href="css/lg.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="md-css" href="css/md.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="sm-css" href="css/sm.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="xs-css" href="css/xs.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="mobile-css" href="css/mobile.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="tablet-css" href="css/tablet.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="laptop-desktop-css" href="css/laptop-desktop.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome-css" href="fonts/css/all.min.css?ver=1.1" type="text/css" media="all">
+<link rel="stylesheet" id="bs-css-css" href="bs/bootstrap.min.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="sidebar-css" href="css/sidebar.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="fdb-css" href="css/froala_blocks.min.css?ver=6.9" type="text/css" media="all">
+<link rel="stylesheet" id="main-menu-css" href="css/menu.css?ver=6.9" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="js/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="js/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/w.js?ver=202550" id="woo-tracks-js"></script>
+<script type="text/javascript" src="js/script.js?ver=6.9" id="main-js-js"></script>
+<script type="text/javascript" src="fonts/js/pro.min.js" id="fa6pro-js-js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js?ver=6.9" id="bundle-bs-js"></script>
+<script type="text/javascript" src="js/menu.js?ver=6.9" id="menu-js-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/12"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.9">
+<meta name="generator" content="WooCommerce 7.8.0">
+<link rel="canonical" href="/">
+<link rel="shortlink" href="/">
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="img/cropped-DexLogo-1-32x32.png" sizes="32x32">
+<link rel="icon" href="img/cropped-DexLogo-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="img/cropped-DexLogo-1-180x180.png">
+<meta name="msapplication-TileImage" content="img/cropped-DexLogo-1-270x270.png">
+</head>
+<body>
+  
+
+
+	  
+<svg width="0" height="0" class="hidden d-none">
+
+	   <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 549 554" id="site-logo">
+    <g id="#14d3a6ff">
+      <path fill="#14d3a6" opacity="1.00" d=" M 93.00 17.00 C 178.67 17.34 264.33 17.64 350.00 17.98 C 357.69 18.04 365.41 17.77 373.06 18.70 C 402.45 22.12 431.29 32.29 455.40 49.62 C 477.22 65.05 494.72 86.07 507.55 109.42 C 516.44 125.52 523.05 142.89 526.82 160.90 C 532.52 188.02 531.33 216.66 522.89 243.08 C 521.36 244.11 520.68 245.85 520.04 247.49 C 514.35 262.44 505.97 276.13 497.77 289.79 C 476.87 325.40 455.68 360.85 434.55 396.32 C 423.87 414.33 413.17 432.33 402.28 450.21 C 395.51 461.79 387.77 472.83 378.73 482.76 C 359.92 503.79 335.66 520.44 308.38 528.17 C 302.46 527.10 296.89 529.89 291.05 530.27 C 285.84 531.11 280.49 530.55 275.30 531.43 C 274.83 531.73 273.90 532.34 273.43 532.64 L 272.81 532.59 C 271.57 532.24 270.31 531.99 269.03 531.84 C 243.35 531.85 217.66 531.87 191.98 531.83 C 190.31 531.69 188.86 532.51 187.42 533.21 C 165.01 533.75 142.49 533.40 120.04 533.65 C 86.03 533.74 52.02 533.89 18.01 534.00 C 17.65 501.19 17.36 468.38 17.00 435.58 C 17.40 435.69 18.20 435.90 18.60 436.01 C 20.14 436.58 21.62 437.53 23.32 437.50 C 47.87 436.95 72.44 437.11 97.00 436.99 C 100.13 436.85 103.67 437.76 106.40 435.75 C 107.12 435.28 107.83 434.82 108.55 434.36 C 109.83 435.31 111.54 434.88 113.03 435.02 C 174.36 435.00 235.69 435.27 297.01 435.00 C 301.29 434.92 305.10 432.67 308.84 430.84 C 313.14 428.35 317.96 426.04 320.70 421.68 C 332.11 404.20 342.36 386.00 352.93 368.00 C 376.76 327.14 400.68 286.33 424.45 245.44 C 435.02 225.55 437.18 201.31 430.02 179.92 C 424.85 163.22 414.47 148.00 400.10 137.90 C 386.43 128.00 369.60 123.48 352.99 122.01 C 266.33 121.98 179.66 122.01 93.00 122.00 C 93.00 87.00 93.00 52.00 93.00 17.00 Z"></path>
+    </g>
+    <g id="#24c09cfc">
+      <path fill="#24c09c" opacity="1.00" d=" M 134.55 202.43 C 135.03 201.40 135.83 200.94 136.94 201.03 C 170.00 200.94 203.06 201.08 236.12 200.95 C 237.86 203.15 237.78 206.00 236.03 208.16 C 235.91 206.11 235.73 204.07 235.57 202.02 C 232.82 201.76 230.05 201.71 227.31 202.08 C 215.55 201.60 203.78 201.86 192.02 201.71 C 175.02 202.19 158.01 201.60 141.01 201.65 C 138.83 201.71 136.69 202.08 134.55 202.43 Z"></path>
+    </g>
+    <g id="#12b592ff">
+      <path fill="#12b592" opacity="1.00" d=" M 134.55 202.43 C 136.69 202.08 138.83 201.71 141.01 201.65 C 158.01 201.60 175.02 202.19 192.02 201.71 C 203.78 201.86 215.55 201.60 227.31 202.08 C 224.57 202.57 221.79 202.86 219.00 202.79 C 208.16 202.75 197.33 202.85 186.49 203.13 C 186.41 204.71 186.33 206.30 186.25 207.90 C 189.00 208.16 191.73 208.56 194.45 209.07 C 194.05 209.81 193.69 210.57 193.37 211.35 C 194.81 211.55 196.25 211.74 197.69 211.97 C 197.62 213.13 197.55 214.29 197.49 215.46 C 201.24 215.34 202.01 219.46 203.30 222.14 C 203.47 220.94 203.63 219.74 203.80 218.54 C 204.32 218.45 205.36 218.27 205.88 218.18 C 205.48 220.52 204.98 222.85 204.40 225.16 C 205.38 224.25 206.36 223.34 207.35 222.43 C 208.07 222.62 208.79 222.82 209.52 223.02 C 209.07 223.79 208.61 224.55 208.16 225.32 C 209.55 225.41 210.94 225.52 212.33 225.64 C 213.00 227.14 213.67 228.63 214.36 230.12 C 214.70 229.36 215.38 227.85 215.72 227.09 C 217.07 230.50 217.86 234.12 219.60 237.37 C 214.81 246.00 209.90 254.56 205.09 263.18 C 202.71 262.02 201.02 260.02 200.78 257.33 C 200.14 258.05 199.51 258.77 198.87 259.50 C 195.11 257.66 191.34 255.54 188.87 252.03 C 187.20 249.58 184.63 248.08 181.72 247.61 C 181.65 246.85 181.59 246.09 181.52 245.34 C 180.03 245.64 178.54 245.97 177.06 246.35 C 177.17 244.90 177.28 243.45 177.38 242.01 C 175.16 240.97 172.90 240.03 170.59 239.22 C 170.00 238.46 169.42 237.71 168.84 236.96 C 167.53 236.74 166.22 236.53 164.91 236.31 C 165.32 235.84 166.13 234.90 166.54 234.43 C 163.54 232.42 160.26 230.80 157.63 228.28 C 156.37 227.08 154.63 226.62 153.06 225.97 C 152.76 225.37 152.48 224.77 152.19 224.17 C 151.56 224.66 150.93 225.15 150.30 225.64 C 149.69 224.76 149.08 223.88 148.48 223.01 C 145.27 221.57 142.51 219.40 140.27 216.70 C 138.33 216.14 136.28 216.10 134.33 215.60 C 133.20 213.56 132.16 211.44 130.54 209.73 C 131.89 207.31 133.35 204.94 134.55 202.43 Z"></path>
+    </g>
+    <g id="#14c59dff">
+      <path fill="#14c59d" opacity="1.00" d=" M 227.31 202.08 C 230.05 201.71 232.82 201.76 235.57 202.02 C 235.73 204.07 235.91 206.11 236.03 208.16 C 230.65 217.95 225.07 227.63 219.60 237.37 C 217.86 234.12 217.07 230.50 215.72 227.09 C 215.38 227.85 214.70 229.36 214.36 230.12 C 213.67 228.63 213.00 227.14 212.33 225.64 C 210.94 225.52 209.55 225.41 208.16 225.32 C 208.61 224.55 209.07 223.79 209.52 223.02 C 208.79 222.82 208.07 222.62 207.35 222.43 C 206.36 223.34 205.38 224.25 204.40 225.16 C 204.98 222.85 205.48 220.52 205.88 218.18 C 205.36 218.27 204.32 218.45 203.80 218.54 C 203.63 219.74 203.47 220.94 203.30 222.14 C 202.01 219.46 201.24 215.34 197.49 215.46 C 197.55 214.29 197.62 213.13 197.69 211.97 C 196.25 211.74 194.81 211.55 193.37 211.35 C 193.69 210.57 194.05 209.81 194.45 209.07 C 191.73 208.56 189.00 208.16 186.25 207.90 C 186.33 206.30 186.41 204.71 186.49 203.13 C 197.33 202.85 208.16 202.75 219.00 202.79 C 221.79 202.86 224.57 202.57 227.31 202.08 Z"></path>
+    </g>
+    <g id="#0f9c81ff">
+      <path fill="#0f9c81" opacity="1.00" d=" M 111.56 243.00 C 117.92 231.93 124.14 220.78 130.54 209.73 C 132.16 211.44 133.20 213.56 134.33 215.60 C 136.28 216.10 138.33 216.14 140.27 216.70 C 142.51 219.40 145.27 221.57 148.48 223.01 C 149.08 223.88 149.69 224.76 150.30 225.64 C 150.93 225.15 151.56 224.66 152.19 224.17 C 152.48 224.77 152.76 225.37 153.06 225.97 C 154.63 226.62 156.37 227.08 157.63 228.28 C 160.26 230.80 163.54 232.42 166.54 234.43 C 166.13 234.90 165.32 235.84 164.91 236.31 C 166.22 236.53 167.53 236.74 168.84 236.96 C 169.42 237.71 170.00 238.46 170.59 239.22 C 172.90 240.03 175.16 240.97 177.38 242.01 C 177.28 243.45 177.17 244.90 177.06 246.35 C 178.54 245.97 180.03 245.64 181.52 245.34 C 181.59 246.09 181.65 246.85 181.72 247.61 C 184.63 248.08 187.20 249.58 188.87 252.03 C 191.34 255.54 195.11 257.66 198.87 259.50 C 199.51 258.77 200.14 258.05 200.78 257.33 C 201.02 260.02 202.71 262.02 205.09 263.18 C 200.25 271.86 195.28 280.47 190.45 289.16 C 189.71 289.43 188.98 289.71 188.24 290.00 C 186.40 288.84 184.54 287.61 183.30 285.78 C 181.80 283.64 179.10 282.98 176.96 281.67 C 174.41 281.71 173.30 279.56 172.53 277.47 C 172.03 278.25 171.52 279.03 171.02 279.82 C 169.42 277.54 167.75 274.99 164.88 274.30 C 164.28 273.67 163.69 273.03 163.11 272.40 C 162.40 272.78 161.70 273.16 161.00 273.54 C 160.88 273.12 160.63 272.28 160.51 271.86 C 160.89 270.83 161.27 269.81 161.65 268.78 C 160.56 269.27 159.49 269.78 158.42 270.30 C 157.95 269.56 157.48 268.82 157.02 268.08 C 156.19 267.78 155.36 267.50 154.53 267.21 C 154.48 266.46 154.43 265.72 154.38 264.98 C 153.69 265.48 153.00 265.99 152.31 266.49 C 152.14 265.97 151.80 264.92 151.63 264.39 C 150.86 264.78 150.10 265.17 149.33 265.57 C 149.35 264.81 149.36 264.05 149.38 263.30 C 146.17 262.80 143.08 261.67 140.85 259.22 C 139.98 259.69 139.11 260.17 138.25 260.66 C 138.45 259.36 138.65 258.06 138.86 256.76 C 133.51 255.60 128.22 253.19 124.91 248.68 C 123.70 249.01 122.47 249.77 121.18 249.49 C 120.72 248.70 120.38 247.84 120.02 247.00 C 118.95 246.07 117.87 245.17 116.77 244.27 C 116.16 244.82 115.55 245.37 114.94 245.93 C 114.66 245.22 114.39 244.51 114.12 243.81 C 113.27 243.54 112.41 243.26 111.56 243.00 Z"></path>
+    </g>
+    <g id="#0d826dff">
+      <path fill="#0d826d" opacity="1.00" d=" M 97.32 268.08 C 102.01 259.68 106.78 251.34 111.56 243.00 C 112.41 243.26 113.27 243.54 114.12 243.81 C 114.39 244.51 114.66 245.22 114.94 245.93 C 115.55 245.37 116.16 244.82 116.77 244.27 C 117.87 245.17 118.95 246.07 120.02 247.00 C 120.38 247.84 120.72 248.70 121.18 249.49 C 122.47 249.77 123.70 249.01 124.91 248.68 C 128.22 253.19 133.51 255.60 138.86 256.76 C 138.65 258.06 138.45 259.36 138.25 260.66 C 139.11 260.17 139.98 259.69 140.85 259.22 C 143.08 261.67 146.17 262.80 149.38 263.30 C 149.36 264.05 149.35 264.81 149.33 265.57 C 150.10 265.17 150.86 264.78 151.63 264.39 C 151.80 264.92 152.14 265.97 152.31 266.49 C 153.00 265.99 153.69 265.48 154.38 264.98 C 154.43 265.72 154.48 266.46 154.53 267.21 C 155.36 267.50 156.19 267.78 157.02 268.08 C 157.48 268.82 157.95 269.56 158.42 270.30 C 159.49 269.78 160.56 269.27 161.65 268.78 C 161.27 269.81 160.89 270.83 160.51 271.86 C 160.63 272.28 160.88 273.12 161.00 273.54 C 161.70 273.16 162.40 272.78 163.11 272.40 C 163.69 273.03 164.28 273.67 164.88 274.30 C 167.75 274.99 169.42 277.54 171.02 279.82 C 171.52 279.03 172.03 278.25 172.53 277.47 C 173.30 279.56 174.41 281.71 176.96 281.67 C 179.10 282.98 181.80 283.64 183.30 285.78 C 184.54 287.61 186.40 288.84 188.24 290.00 C 188.98 289.71 189.71 289.43 190.45 289.16 C 186.08 297.00 181.60 304.78 177.23 312.62 C 175.89 311.19 174.54 309.78 173.16 308.39 C 171.13 308.34 169.05 308.37 167.09 307.75 C 165.11 307.41 164.65 305.24 163.81 303.75 C 163.45 303.63 162.75 303.39 162.40 303.28 C 162.19 303.85 161.78 304.99 161.58 305.56 C 160.04 303.96 158.49 302.37 156.90 300.83 C 156.13 300.97 155.37 301.18 154.59 301.20 C 151.98 299.46 149.89 297.08 147.61 294.95 C 144.71 294.43 142.68 292.24 140.60 290.34 C 140.16 290.70 139.27 291.40 138.82 291.76 C 136.63 290.15 134.27 287.58 131.38 289.22 C 129.34 286.81 127.09 284.51 124.08 283.35 C 119.85 278.65 113.55 276.79 107.71 274.95 C 105.86 274.48 103.76 274.90 102.05 273.97 C 101.30 272.53 101.05 270.91 100.63 269.37 C 99.52 268.93 98.42 268.50 97.32 268.08 Z"></path>
+    </g>
+    <g id="#0f4a3eff">
+      <path fill="#0f4a3e" opacity="1.00" d=" M 520.04 247.49 C 520.68 245.85 521.36 244.11 522.89 243.08 C 522.56 244.35 522.13 245.60 521.99 246.91 C 522.23 271.91 522.81 296.93 522.87 321.93 C 509.40 345.44 495.48 368.72 481.84 392.15 C 480.49 390.95 479.13 389.76 477.78 388.58 C 476.29 389.84 474.56 390.70 472.69 391.19 C 472.91 391.84 473.15 392.50 473.39 393.17 C 470.15 393.62 468.49 396.30 466.65 398.63 C 464.87 398.67 463.11 398.38 461.34 398.41 C 460.05 399.03 458.95 399.96 457.80 400.80 C 457.55 399.71 457.29 398.63 457.04 397.55 C 456.39 398.97 455.74 400.39 455.09 401.81 C 456.66 403.36 458.01 405.12 459.00 407.10 C 456.81 405.69 454.67 404.22 452.47 402.84 C 452.45 404.90 452.48 406.97 452.50 409.04 C 451.48 407.08 450.54 405.08 449.72 403.05 C 449.49 405.70 447.34 409.35 444.27 408.48 C 442.08 407.86 442.57 405.40 442.38 403.67 C 441.07 402.62 439.45 401.77 438.82 400.13 C 438.17 398.16 436.04 397.49 434.55 396.32 C 455.68 360.85 476.87 325.40 497.77 289.79 C 505.97 276.13 514.35 262.44 520.04 247.49 Z"></path>
+    </g>
+    <g id="#0b7160ff">
+      <path fill="#0b7160" opacity="1.00" d=" M 97.23 268.04 L 97.32 268.08 C 98.42 268.50 99.52 268.93 100.63 269.37 C 101.05 270.91 101.30 272.53 102.05 273.97 C 103.76 274.90 105.86 274.48 107.71 274.95 C 113.55 276.79 119.85 278.65 124.08 283.35 C 127.09 284.51 129.34 286.81 131.38 289.22 C 134.27 287.58 136.63 290.15 138.82 291.76 C 139.27 291.40 140.16 290.70 140.60 290.34 C 142.68 292.24 144.71 294.43 147.61 294.95 C 149.89 297.08 151.98 299.46 154.59 301.20 C 155.37 301.18 156.13 300.97 156.90 300.83 C 158.49 302.37 160.04 303.96 161.58 305.56 C 161.78 304.99 162.19 303.85 162.40 303.28 C 162.75 303.39 163.45 303.63 163.81 303.75 C 164.65 305.24 165.11 307.41 167.09 307.75 C 169.05 308.37 171.13 308.34 173.16 308.39 C 174.54 309.78 175.89 311.19 177.23 312.62 C 174.54 317.40 171.85 322.17 169.14 326.93 C 168.65 325.44 168.17 323.96 167.68 322.47 C 166.91 322.84 166.15 323.22 165.38 323.60 C 165.38 322.93 165.39 322.27 165.39 321.61 C 161.20 320.09 156.49 318.99 153.42 315.53 C 151.62 313.28 148.63 312.94 146.17 311.81 C 143.00 310.54 140.77 307.73 137.68 306.34 C 136.26 306.27 135.07 307.33 133.80 307.84 C 133.20 306.31 132.97 304.44 131.56 303.41 C 129.46 302.24 127.13 301.58 124.94 300.62 C 124.34 300.86 123.75 301.10 123.16 301.35 C 122.08 300.81 121.00 300.27 119.92 299.73 C 119.90 298.72 120.83 297.15 119.64 296.55 C 117.21 296.19 114.41 297.42 112.31 295.71 C 109.22 293.19 105.16 292.74 101.56 291.31 C 101.41 290.36 101.26 289.43 101.11 288.49 C 99.88 288.77 98.66 289.16 97.40 289.28 C 95.96 288.65 94.81 287.54 93.57 286.61 C 91.38 286.46 89.20 286.28 87.01 286.08 C 90.41 280.06 93.88 274.08 97.23 268.04 Z"></path>
+    </g>
+    <g id="#0b6657ff">
+      <path fill="#0b6657" opacity="1.00" d=" M 87.01 286.08 C 89.20 286.28 91.38 286.46 93.57 286.61 C 94.81 287.54 95.96 288.65 97.40 289.28 C 98.66 289.16 99.88 288.77 101.11 288.49 C 101.26 289.43 101.41 290.36 101.56 291.31 C 105.16 292.74 109.22 293.19 112.31 295.71 C 114.41 297.42 117.21 296.19 119.64 296.55 C 120.83 297.15 119.90 298.72 119.92 299.73 C 121.00 300.27 122.08 300.81 123.16 301.35 C 123.75 301.10 124.34 300.86 124.94 300.62 C 127.13 301.58 129.46 302.24 131.56 303.41 C 132.97 304.44 133.20 306.31 133.80 307.84 C 135.07 307.33 136.26 306.27 137.68 306.34 C 140.77 307.73 143.00 310.54 146.17 311.81 C 148.63 312.94 151.62 313.28 153.42 315.53 C 156.49 318.99 161.20 320.09 165.39 321.61 C 165.39 322.27 165.38 322.93 165.38 323.60 C 166.15 323.22 166.91 322.84 167.68 322.47 C 168.17 323.96 168.65 325.44 169.14 326.93 C 166.47 331.64 163.93 336.42 161.08 341.02 C 160.75 339.41 160.53 337.80 160.37 336.18 C 159.71 337.01 159.04 337.86 158.38 338.70 C 157.85 337.29 157.33 335.89 156.81 334.49 C 154.42 334.17 152.01 334.45 149.78 335.40 C 149.81 333.94 149.92 332.50 150.19 331.07 C 148.02 329.97 145.69 330.78 143.53 331.41 C 142.15 328.23 139.30 326.24 136.52 324.39 C 136.21 325.04 135.59 326.36 135.28 327.01 C 134.74 325.03 133.95 323.12 133.13 321.24 C 132.29 321.62 131.45 322.00 130.61 322.39 C 128.71 320.67 126.70 318.96 124.13 318.40 C 118.58 317.01 114.51 311.18 108.39 312.09 C 107.12 309.57 104.64 308.38 101.95 308.07 C 101.69 307.43 101.44 306.79 101.19 306.17 C 99.26 306.29 97.33 306.41 95.41 306.51 C 93.70 305.05 91.85 303.70 89.61 303.24 C 89.02 302.50 88.44 301.76 87.86 301.03 C 87.77 302.95 86.75 304.51 85.39 305.80 C 84.37 305.07 83.36 304.34 82.34 303.61 C 81.52 304.05 80.70 304.49 79.89 304.93 C 79.50 303.48 79.11 302.03 78.72 300.59 C 81.50 295.76 84.21 290.89 87.01 286.08 Z"></path>
+    </g>
+    <g id="#0a574bff">
+      <path fill="#0a574b" opacity="1.00" d=" M 64.60 325.30 C 69.42 317.13 73.98 308.81 78.72 300.59 C 79.11 302.03 79.50 303.48 79.89 304.93 C 80.70 304.49 81.52 304.05 82.34 303.61 C 83.36 304.34 84.37 305.07 85.39 305.80 C 86.75 304.51 87.77 302.95 87.86 301.03 C 88.44 301.76 89.02 302.50 89.61 303.24 C 91.85 303.70 93.70 305.05 95.41 306.51 C 97.33 306.41 99.26 306.29 101.19 306.17 C 101.44 306.79 101.69 307.43 101.95 308.07 C 104.64 308.38 107.12 309.57 108.39 312.09 C 114.51 311.18 118.58 317.01 124.13 318.40 C 126.70 318.96 128.71 320.67 130.61 322.39 C 131.45 322.00 132.29 321.62 133.13 321.24 C 133.95 323.12 134.74 325.03 135.28 327.01 C 135.59 326.36 136.21 325.04 136.52 324.39 C 139.30 326.24 142.15 328.23 143.53 331.41 C 145.69 330.78 148.02 329.97 150.19 331.07 C 149.92 332.50 149.81 333.94 149.78 335.40 C 152.01 334.45 154.42 334.17 156.81 334.49 C 157.33 335.89 157.85 337.29 158.38 338.70 C 159.04 337.86 159.71 337.01 160.37 336.18 C 160.53 337.80 160.75 339.41 161.08 341.02 L 161.10 341.14 C 157.89 347.07 154.45 352.87 151.21 358.77 C 147.65 358.67 145.06 356.19 142.80 353.73 C 141.09 354.62 139.43 355.59 137.82 356.65 C 136.45 354.59 134.93 352.63 133.33 350.76 C 132.43 350.67 131.53 350.59 130.64 350.51 C 130.65 349.49 130.67 348.49 130.69 347.48 C 130.29 347.74 129.48 348.26 129.08 348.52 C 128.09 347.43 127.10 346.33 126.11 345.25 C 124.24 345.78 122.11 347.23 120.33 345.66 C 115.40 342.43 109.88 339.29 103.78 339.49 C 103.45 338.76 103.13 338.04 102.81 337.32 C 101.85 337.39 100.88 337.46 99.92 337.53 C 98.40 336.36 97.02 334.68 94.95 334.62 C 89.42 334.18 84.81 330.44 79.28 329.97 C 78.63 329.42 77.98 328.88 77.33 328.33 C 76.10 329.06 74.96 329.98 73.60 330.44 C 70.94 330.20 68.33 329.36 65.62 329.68 C 65.31 328.32 64.99 326.96 64.68 325.61 L 64.60 325.30 Z"></path>
+    </g>
+    <g id="#09473eff">
+      <path fill="#09473e" opacity="1.00" d=" M 48.63 353.55 C 54.02 344.26 59.05 334.76 64.68 325.61 C 64.99 326.96 65.31 328.32 65.62 329.68 C 68.33 329.36 70.94 330.20 73.60 330.44 C 74.96 329.98 76.10 329.06 77.33 328.33 C 77.98 328.88 78.63 329.42 79.28 329.97 C 84.81 330.44 89.42 334.18 94.95 334.62 C 97.02 334.68 98.40 336.36 99.92 337.53 C 100.88 337.46 101.85 337.39 102.81 337.32 C 103.13 338.04 103.45 338.76 103.78 339.49 C 109.88 339.29 115.40 342.43 120.33 345.66 C 122.11 347.23 124.24 345.78 126.11 345.25 C 127.10 346.33 128.09 347.43 129.08 348.52 C 129.48 348.26 130.29 347.74 130.69 347.48 C 130.67 348.49 130.65 349.49 130.64 350.51 C 131.53 350.59 132.43 350.67 133.33 350.76 C 134.93 352.63 136.45 354.59 137.82 356.65 C 139.43 355.59 141.09 354.62 142.80 353.73 C 145.06 356.19 147.65 358.67 151.21 358.77 C 147.31 365.66 143.39 372.54 139.51 379.44 C 138.01 379.33 136.42 379.65 135.01 379.06 C 134.49 378.08 134.39 376.97 134.14 375.92 C 131.89 374.66 129.73 371.90 126.89 372.82 C 121.78 374.19 117.11 369.28 111.98 371.48 C 112.67 370.50 113.36 369.52 114.05 368.55 C 112.65 368.50 111.25 368.45 109.85 368.40 C 106.44 365.07 101.01 364.16 96.42 364.93 C 96.80 364.27 97.17 363.63 97.55 362.98 C 96.93 362.39 96.32 361.80 95.70 361.22 C 94.44 362.03 93.18 362.84 91.93 363.67 C 91.74 363.28 91.36 362.52 91.18 362.14 C 91.68 361.43 92.18 360.72 92.68 360.02 C 90.56 360.38 88.42 360.70 86.28 360.97 C 85.50 359.48 85.37 356.63 83.02 357.03 C 81.00 357.42 79.45 358.93 77.76 360.00 C 77.59 359.25 77.42 358.50 77.26 357.76 C 76.16 357.51 75.07 357.26 73.98 357.03 C 73.53 356.20 73.09 355.38 72.65 354.57 C 72.15 354.85 71.65 355.13 71.16 355.41 C 70.38 354.84 69.61 354.28 68.84 353.73 C 67.10 354.23 65.30 354.18 63.54 353.80 C 63.12 354.03 62.28 354.47 61.86 354.70 C 59.97 353.15 57.76 352.06 55.28 352.91 C 55.74 353.62 56.21 354.32 56.67 355.03 C 53.99 354.53 51.31 354.04 48.63 353.55 Z"></path>
+    </g>
+    <g id="#083831ff">
+      <path fill="#083831" opacity="1.00" d=" M 55.28 352.91 C 57.76 352.06 59.97 353.15 61.86 354.70 C 62.28 354.47 63.12 354.03 63.54 353.80 C 65.30 354.18 67.10 354.23 68.84 353.73 C 69.61 354.28 70.38 354.84 71.16 355.41 C 71.65 355.13 72.15 354.85 72.65 354.57 C 73.09 355.38 73.53 356.20 73.98 357.03 C 75.07 357.26 76.16 357.51 77.26 357.76 C 77.42 358.50 77.59 359.25 77.76 360.00 C 79.45 358.93 81.00 357.42 83.02 357.03 C 85.37 356.63 85.50 359.48 86.28 360.97 C 88.42 360.70 90.56 360.38 92.68 360.02 C 92.18 360.72 91.68 361.43 91.18 362.14 C 91.36 362.52 91.74 363.28 91.93 363.67 C 93.18 362.84 94.44 362.03 95.70 361.22 C 96.32 361.80 96.93 362.39 97.55 362.98 C 97.17 363.63 96.80 364.27 96.42 364.93 C 101.01 364.16 106.44 365.07 109.85 368.40 C 111.25 368.45 112.65 368.50 114.05 368.55 C 113.36 369.52 112.67 370.50 111.98 371.48 C 117.11 369.28 121.78 374.19 126.89 372.82 C 129.73 371.90 131.89 374.66 134.14 375.92 C 134.39 376.97 134.49 378.08 135.01 379.06 C 136.42 379.65 138.01 379.33 139.51 379.44 C 134.79 387.80 130.02 396.12 125.31 404.48 C 124.21 402.19 122.59 400.22 120.13 399.39 C 119.21 400.47 118.29 401.56 117.38 402.65 C 116.97 401.17 116.56 399.70 116.15 398.23 C 115.40 398.74 114.65 399.26 113.90 399.78 C 113.30 398.90 112.70 398.03 112.11 397.17 C 111.11 397.65 110.11 398.14 109.13 398.65 C 108.71 398.42 107.87 397.96 107.45 397.74 C 107.44 396.89 107.42 396.05 107.41 395.22 C 106.00 395.28 104.60 395.43 103.20 395.34 C 101.99 394.12 101.13 392.60 100.19 391.18 C 100.37 392.76 100.53 394.34 100.68 395.94 C 98.24 394.94 96.46 393.04 95.38 390.67 C 94.27 390.28 93.16 389.90 92.06 389.53 C 91.45 390.57 91.46 392.48 89.88 392.44 C 86.30 390.71 82.30 389.62 79.42 386.73 C 79.04 386.98 78.29 387.47 77.92 387.72 C 76.68 386.95 75.43 386.19 74.18 385.45 C 72.63 386.09 71.03 386.60 69.40 387.00 C 69.20 385.89 69.00 384.78 68.80 383.68 C 66.27 385.39 63.48 384.50 61.09 383.03 C 59.52 381.80 57.76 382.94 56.18 383.48 C 55.67 382.84 55.17 382.20 54.66 381.57 C 53.22 382.62 51.94 384.06 50.20 384.61 C 47.98 384.39 46.50 382.49 44.84 381.23 C 42.98 381.41 41.08 381.51 39.29 380.87 C 38.92 381.71 38.55 382.55 38.17 383.40 C 37.50 383.19 36.82 382.98 36.14 382.78 C 35.32 383.14 34.51 383.52 33.69 383.90 C 33.41 383.04 33.13 382.19 32.85 381.34 C 38.10 372.07 43.34 362.80 48.63 353.55 C 51.31 354.04 53.99 354.53 56.67 355.03 C 56.21 354.32 55.74 353.62 55.28 352.91 Z"></path>
+    </g>
+    <g id="#082824ff">
+      <path fill="#082824" opacity="1.00" d=" M 39.29 380.87 C 41.08 381.51 42.98 381.41 44.84 381.23 C 46.50 382.49 47.98 384.39 50.20 384.61 C 51.94 384.06 53.22 382.62 54.66 381.57 C 55.17 382.20 55.67 382.84 56.18 383.48 C 57.76 382.94 59.52 381.80 61.09 383.03 C 63.48 384.50 66.27 385.39 68.80 383.68 C 69.00 384.78 69.20 385.89 69.40 387.00 C 71.03 386.60 72.63 386.09 74.18 385.45 C 75.43 386.19 76.68 386.95 77.92 387.72 C 78.29 387.47 79.04 386.98 79.42 386.73 C 82.30 389.62 86.30 390.71 89.88 392.44 C 91.46 392.48 91.45 390.57 92.06 389.53 C 93.16 389.90 94.27 390.28 95.38 390.67 C 96.46 393.04 98.24 394.94 100.68 395.94 C 100.53 394.34 100.37 392.76 100.19 391.18 C 101.13 392.60 101.99 394.12 103.20 395.34 C 104.60 395.43 106.00 395.28 107.41 395.22 C 107.42 396.05 107.44 396.89 107.45 397.74 C 107.87 397.96 108.71 398.42 109.13 398.65 C 110.11 398.14 111.11 397.65 112.11 397.17 C 112.70 398.03 113.30 398.90 113.90 399.78 C 114.65 399.26 115.40 398.74 116.15 398.23 C 116.56 399.70 116.97 401.17 117.38 402.65 C 118.29 401.56 119.21 400.47 120.13 399.39 C 122.59 400.22 124.21 402.19 125.31 404.48 C 120.86 412.26 116.49 420.09 111.98 427.83 L 111.84 427.85 C 109.58 428.14 107.32 428.53 105.14 429.18 C 100.87 426.00 95.50 426.55 90.60 425.30 C 89.87 424.18 89.14 423.07 88.39 421.97 C 87.60 423.32 86.81 424.67 86.01 426.02 C 82.12 423.77 78.64 420.85 74.34 419.32 C 74.15 419.90 73.78 421.07 73.59 421.66 C 71.01 420.40 68.80 418.54 67.86 415.73 C 67.69 417.02 67.52 418.30 67.35 419.60 C 62.17 418.91 57.24 416.95 53.00 413.91 C 51.62 415.12 50.49 416.81 48.76 417.53 C 47.63 417.30 46.73 416.48 45.74 415.96 C 45.98 415.03 46.22 414.10 46.45 413.18 C 44.15 413.65 43.61 416.21 42.50 417.94 C 42.51 416.28 42.51 414.62 42.51 412.96 C 41.42 413.04 40.34 413.14 39.25 413.23 C 39.75 414.23 40.24 415.23 40.72 416.24 C 39.01 415.28 37.58 413.95 36.34 412.46 C 36.15 412.97 35.79 413.99 35.61 414.50 C 33.68 413.13 31.51 412.16 29.14 411.89 C 28.12 413.54 26.91 415.09 25.38 416.31 C 25.77 415.33 26.17 414.37 26.57 413.42 C 23.64 413.54 20.75 412.83 18.18 411.41 C 18.45 409.10 18.52 406.65 19.75 404.60 C 24.07 396.82 28.47 389.08 32.85 381.34 C 33.13 382.19 33.41 383.04 33.69 383.90 C 34.51 383.52 35.32 383.14 36.14 382.78 C 36.82 382.98 37.50 383.19 38.17 383.40 C 38.55 382.55 38.92 381.71 39.29 380.87 Z"></path>
+      <path fill="#082824" opacity="1.00" d=" M 272.81 532.59 L 273.43 532.64 C 280.23 532.92 287.06 532.61 293.81 531.65 C 296.50 532.05 299.20 532.51 301.94 532.49 C 331.31 532.09 360.70 532.64 390.07 532.11 C 383.84 533.65 377.37 532.81 371.03 532.96 C 341.71 533.00 312.38 533.04 283.06 533.13 C 280.00 533.00 276.88 533.45 273.86 532.88 L 272.81 532.59 Z"></path>
+    </g>
+    <g id="#105246ff">
+      <path fill="#105246" opacity="1.00" d=" M 477.78 388.58 C 479.13 389.76 480.49 390.95 481.84 392.15 C 458.22 432.42 434.57 472.67 411.01 512.98 C 406.71 521.59 399.67 529.57 390.07 532.11 C 360.70 532.64 331.31 532.09 301.94 532.49 C 299.20 532.51 296.50 532.05 293.81 531.65 C 298.68 530.57 303.58 529.55 308.38 528.17 C 335.66 520.44 359.92 503.79 378.73 482.76 C 387.77 472.83 395.51 461.79 402.28 450.21 C 413.17 432.33 423.87 414.33 434.55 396.32 C 436.04 397.49 438.17 398.16 438.82 400.13 C 439.45 401.77 441.07 402.62 442.38 403.67 C 442.57 405.40 442.08 407.86 444.27 408.48 C 447.34 409.35 449.49 405.70 449.72 403.05 C 450.54 405.08 451.48 407.08 452.50 409.04 C 452.48 406.97 452.45 404.90 452.47 402.84 C 454.67 404.22 456.81 405.69 459.00 407.10 C 458.01 405.12 456.66 403.36 455.09 401.81 C 455.74 400.39 456.39 398.97 457.04 397.55 C 457.29 398.63 457.55 399.71 457.80 400.80 C 458.95 399.96 460.05 399.03 461.34 398.41 C 463.11 398.38 464.87 398.67 466.65 398.63 C 468.49 396.30 470.15 393.62 473.39 393.17 C 473.15 392.50 472.91 391.84 472.69 391.19 C 474.56 390.70 476.29 389.84 477.78 388.58 Z"></path>
+    </g>
+    <g id="#091918ff">
+      <path fill="#091918" opacity="1.00" d=" M 18.12 411.38 L 18.18 411.41 C 20.75 412.83 23.64 413.54 26.57 413.42 C 26.17 414.37 25.77 415.33 25.38 416.31 C 26.91 415.09 28.12 413.54 29.14 411.89 C 31.51 412.16 33.68 413.13 35.61 414.50 C 35.79 413.99 36.15 412.97 36.34 412.46 C 37.58 413.95 39.01 415.28 40.72 416.24 C 40.24 415.23 39.75 414.23 39.25 413.23 C 40.34 413.14 41.42 413.04 42.51 412.96 C 42.51 414.62 42.51 416.28 42.50 417.94 C 43.61 416.21 44.15 413.65 46.45 413.18 C 46.22 414.10 45.98 415.03 45.74 415.96 C 46.73 416.48 47.63 417.30 48.76 417.53 C 50.49 416.81 51.62 415.12 53.00 413.91 C 57.24 416.95 62.17 418.91 67.35 419.60 C 67.52 418.30 67.69 417.02 67.86 415.73 C 68.80 418.54 71.01 420.40 73.59 421.66 C 73.78 421.07 74.15 419.90 74.34 419.32 C 78.64 420.85 82.12 423.77 86.01 426.02 C 86.81 424.67 87.60 423.32 88.39 421.97 C 89.14 423.07 89.87 424.18 90.60 425.30 C 95.50 426.55 100.87 426.00 105.14 429.18 C 107.32 428.53 109.58 428.14 111.84 427.85 C 110.74 429.93 109.67 432.02 108.79 434.20 L 108.55 434.36 C 107.83 434.82 107.12 435.28 106.40 435.75 C 77.13 435.64 47.86 435.74 18.60 436.01 C 18.20 435.90 17.40 435.69 17.00 435.58 C 17.23 427.51 17.65 419.44 18.12 411.38 Z"></path>
+    </g>
+    <g id="#3ad0abff">
+      <path fill="#3ad0ab" opacity="1.00" d=" M 18.60 436.01 C 47.86 435.74 77.13 435.64 106.40 435.75 C 103.67 437.76 100.13 436.85 97.00 436.99 C 72.44 437.11 47.87 436.95 23.32 437.50 C 21.62 437.53 20.14 436.58 18.60 436.01 Z"></path>
+    </g>
+    <g id="#34cfa7ff">
+      <path fill="#34cfa7" opacity="1.00" d=" M 291.05 530.27 C 296.89 529.89 302.46 527.10 308.38 528.17 C 303.58 529.55 298.68 530.57 293.81 531.65 C 287.06 532.61 280.23 532.92 273.43 532.64 C 273.90 532.34 274.83 531.73 275.30 531.43 C 280.49 530.55 285.84 531.11 291.05 530.27 Z"></path>
+    </g>
+    <g id="#41c8a3ff">
+      <path fill="#41c8a3" opacity="1.00" d=" M 187.42 533.21 C 188.86 532.51 190.31 531.69 191.98 531.83 C 217.66 531.87 243.35 531.85 269.03 531.84 C 270.31 531.99 271.57 532.24 272.81 532.59 L 273.86 532.88 C 271.35 533.09 268.83 533.12 266.32 533.09 C 240.44 532.94 214.54 532.96 188.65 533.22 L 187.42 533.21 Z"></path>
+    </g>
+    <g id="#010f0b49">
+      <path fill="#010f0b" opacity="0.29" d=" M 188.65 533.22 C 214.54 532.96 240.44 532.94 266.32 533.09 C 265.25 533.43 264.16 533.62 263.05 533.68 C 242.02 533.72 220.99 533.86 199.96 533.91 C 196.19 533.81 192.28 534.52 188.65 533.22 Z"></path>
+    </g>
+ 
+</svg> 	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+
+<div class="position-absolute apex start-0 top-0 ms-3">
+<a href="index.html"><svg class="icon" style="width:3em; max-height:4em;">
+  <use xlink:href="#site-logo"></use>
+</svg>
+</a></div>
+
+
+
+
+
+<div id="wrapper">
+<article class="col-12 container-fluid px-0 mx-0">
+
+<div class="position-relative">
+
+<button class="menu-btn hover-bg-minty position-fixed top-0 mt-1 me-0 px-3 end-0 translate-end
+animate__animated animate__fadeInRight animate__delay-.5s"><i class="py-3 fs-5 c-white fas fa-bars"></i></button>
+</div>
+
+<div class="preloader-container">
+    
+           <div id="inner">
+               <svg class="logo-splash" style="margin-top:11em;">
+  <use style="width:40em; height:auto;" xlink:href="#site-logo"></use>
+</svg>
+                      <div class="loader">
+ <div class="preloader-bar">
+    <span class="preloader-progress"></span>
+  </div>
+                        
+  <p class="preloader-text">LOADING 0%</p>
+  </div>
+    </div>
+</div>
+
+<h1 class="text-center minty animate__animated animate__fadeInLeft animate__delay-1s">Logos</h1>
+<hr class="animate__animated animate__fadeInLeft animate__delay-1s">
+
+<div class="container-fluid">
+	<div class="col-12">
+			<div class="row text-center col-12 align-items-center">
+				
+																								
+				
+<div class="col-12 col-md-6 col-lg-3 my-5">
+	<a class="image-link" data-bs-toggle="modal" data-bs-target="#logo-modal1" href="#">
+		<img style="background-size: 100%;" class="w-75 mx-auto rounded-5" src="img/GreenLion-Logo.png"></a>
+
+			<h2>Green Lion Farms</h2>
+            <small>12/26/2024</small>
+			<p class="col-10 mx-auto">Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad…</p>
+			<h5 class="fs-5 text-mute">
+				</h5>
+	</div>
+
+
+								
+				
+<div class="col-12 col-md-6 col-lg-3 my-5">
+	<a class="image-link" data-bs-toggle="modal" data-bs-target="#logo-modal2" href="#">
+		<img style="background-size: 100%;" class="w-75 mx-auto rounded-5" src="img/R7-light.png"></a>
+
+			<h2>Re Up Garden</h2>
+            <small>12/25/2024</small>
+			<p class="col-10 mx-auto">Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad…</p>
+			<h5 class="fs-5 text-mute">
+				</h5>
+	</div>
+
+
+								
+				
+<div class="col-12 col-md-6 col-lg-3 my-5">
+	<a class="image-link" data-bs-toggle="modal" data-bs-target="#logo-modal3" href="#">
+		<img style="background-size: 100%;" class="w-75 mx-auto rounded-5" src="img/DexLogo-1.png"></a>
+
+			<h2>Dexterity</h2>
+            <small>12/24/2024</small>
+			<p class="col-10 mx-auto">Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad…</p>
+			<h5 class="fs-5 text-mute">
+				</h5>
+	</div>
+
+
+								
+				
+<div class="col-12 col-md-6 col-lg-3 my-5">
+	<a class="image-link" data-bs-toggle="modal" data-bs-target="#logo-modal4" href="#">
+		<img style="background-size: 100%;" class="w-75 mx-auto rounded-5" src="img/Mothership-Logo-01.png"></a>
+
+			<h2>The Mothership</h2>
+            <small>12/22/2024</small>
+			<p class="col-10 mx-auto">Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad…</p>
+			<h5 class="fs-5 text-mute">
+				</h5>
+	</div>
+
+
+
+
+
+
+
+
+				
+			</div>
+			<!-- /grid -->
+			<div class="preview">
+				<button class="action action--close"><i class="fa-solid fa-times"></i><span class="text-hidden">Close</span></button>
+				<div class="description description--preview"></div>
+			</div>
+			<!-- /preview -->
+		</div>
+		<!-- /content -->
+
+</div>
+</article>
+</div> <!--#Wrapper-->
+
+
+
+
+
+
+
+<div class="d-none site-navigation d-flex flex-column position-fixed end-0 flex-shrink-0 bg-dark rou
+animate__animated animate__fadeInRight animate__delay-0.5s" style="width: 6.5rem; top:1.5em;
+border-top-left-radius:13px; border-bottom-left-radius:13px;
+ border-right:8px solid black;">
+  
+  <button class="close-btn ps-2 btn ms-0 start-0 d-block position-absolute"><i class="alice fas fa-close"></i></button>
+  
+    
+    <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+    
+     
+      <li class="nav-item">
+       <a href="logos.html" class="d-block nav-item active link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-atom-simple fs-2 text-center w-100 minty"></i>
+        <span class="minty text-center w-100">Logos</span>
+    </a>
+      </li>
+      <li>
+        <a href="digital.html" class="d-block nav-item link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-desktop fs-2 text-center w-100 minty"></i>
+        <span class="minty text-center w-100">Digital</span>
+    </a>
+      </li>
+      <li>
+         <a href="print.html" class="d-block nav-item link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-newspaper fs-2 text-center w-100 minty"></i>
+        <span class="minty text-center w-100">Print</span>
+    </a>
+      </li>
+      <li>
+         <a href="apparel.html" class="d-block nav-item link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-shirt fs-2 text-center w-100 minty"></i>
+        <span class="minty text-center w-100">Apparel</span>
+    </a>
+      </li>
+     <li>
+         <a href="shop.html" class="d-block nav-item link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-shopping-bag fs-2 text-center w-100 minty"></i>
+        <span class="minty text-left w-100">Shop</span>
+    </a>
+      </li>
+          <hr class="w-100 animate__animated animate__fadeInRight animate__delay-1s">
+      <li>
+         <a href="about.html" class="d-block nav-item link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-circle-user fs-2 text-center w-100 minty"></i>
+        <span class="minty text-left w-100">About</span>
+    </a>
+      </li>
+          <li>
+         <a href="quote.html" class="d-block nav-item link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-list-check fs-2 text-center w-100 minty"></i>
+        <span class="minty text-left w-100">Quote</span>
+    </a>
+      </li>
+          <li>
+         <a href="contact.html" class="d-block nav-item link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+     <i class="fa-regular fa-envelope fs-2 text-center w-100 minty"></i>
+        <span class="minty text-left w-100">Contact</span>
+    </a>
+      </li>
+    </ul>
+    
+<div class="form-check form-switch w-100 row justify-content-center px-1 mx-auto mb-5">
+  <input class="form-check-input ms-2 col-auto py-3 w-75 justify-content-center text-center" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+</div>
+    
+      </div>
+
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" id="cart-count-js-extra">
+/* <![CDATA[ */
+var cartCount = {"ajax_url":"/wp-admin/admin-ajax.php?action=ajax_cart_counter"};
+var cartCount = {"ajax_url":"/wp-admin/admin-ajax.php?action=ajax_cart_counter"};
+//# sourceURL=cart-count-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/cart-counter.js?ver=1.0" id="cart-count-js"></script>
+<script type="text/javascript" src="js/jquery.blockUI.min.js?ver=2.7.0-wc.7.8.0" id="jquery-blockui-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"/cart/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="woo/add-to-cart.min.js?ver=7.8.0" id="wc-add-to-cart-js"></script>
+<script type="text/javascript" src="js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.8.0" id="js-cookie-js"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%"};
+//# sourceURL=woocommerce-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="woo/woocommerce.min.js?ver=7.8.0" id="woocommerce-js"></script>
+<script type="text/javascript" src="js/tattoo-grid/masonry.pkgd.min.js?ver=1.0" id="masonry-tg-js"></script>
+<script type="text/javascript" src="js/tattoo-grid/imagesloaded.pkgd.min.js?ver=1.0" id="images-loaded-js"></script>
+<script type="text/javascript" src="js/tattoo-grid/classie.js?ver=1.0" id="classie-js"></script>
+<script type="text/javascript" src="js/tattoo-grid/main.js?ver=1.0" id="tattoo-grid-js-js"></script>
+<script type="text/javascript" id="mothership-like-dislike-js-extra">
+/* <![CDATA[ */
+var mothership_ajax_obj = {"ajax_url":"/wp-admin/admin-ajax.php","nonce":"a349851952"};
+//# sourceURL=mothership-like-dislike-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="mothership-like-dislike.js?ver=1.0" id="mothership-like-dislike-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+	
+	
+<div class="col-auto mb-5 mx-auto text-center copyright fs-h1 minty"><span>© 2023 Dexterity. All Rights Reserved.</span></div>
+
+	
+																
+<div class="modal" id="logo-modal1" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+	<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/GreenLion-Logo.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Green Lion Farms</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad pro audiam pertinax scripserit, in est veri bonorum sapientem. Ne putent quaerendum nam, ei vim iisque virtute. Vix at amet rebum, an primis cetero forensibus cum. No scripta oporteat mei. Eum ea placerat senserit, option probatus appellantur eos ne, at rebum paulo melius vis.</p>
+<small>12/26/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="logo-modal2" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+	<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/R7-light.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Re Up Garden</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad pro audiam pertinax scripserit, in est veri bonorum sapientem. Ne putent quaerendum nam, ei vim iisque virtute. Vix at amet rebum, an primis cetero forensibus cum. No scripta oporteat mei. Eum ea placerat senserit, option probatus appellantur eos ne, at rebum paulo melius vis.</p>
+<small>12/25/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="logo-modal3" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+	<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/DexLogo-1.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Dexterity</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad pro audiam pertinax scripserit, in est veri bonorum sapientem. Ne putent quaerendum nam, ei vim iisque virtute. Vix at amet rebum, an primis cetero forensibus cum. No scripta oporteat mei. Eum ea placerat senserit, option probatus appellantur eos ne, at rebum paulo melius vis.</p>
+<small>12/24/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="logo-modal4" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+	<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/Mothership-Logo-01.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>The Mothership</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, te vel aperiri prompta, an duo suas graece tritani, eum munere abhorreant disputationi eu. Ad pro audiam pertinax scripserit, in est veri bonorum sapientem. Ne putent quaerendum nam, ei vim iisque virtute. Vix at amet rebum, an primis cetero forensibus cum. No scripta oporteat mei. Eum ea placerat senserit, option probatus appellantur eos ne, at rebum paulo melius vis.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+																
+<div class="modal" id="digital-modal1" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/digital-design-3.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Design Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, mei graecis tacimates te, sed cu nisl explicari, ex dicam tempor euismod pri. Iusto percipit inciderint nec an, mel an utinam offendit. Audire discere instructior vel at, per eu elit aperiri. Vocent numquam in sit. Ne eam numquam blandit sapientem, eos ne ipsum philosophia, id meliore blandit mandamus mei.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="digital-modal2" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/digital-design-4.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Design Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, mei graecis tacimates te, sed cu nisl explicari, ex dicam tempor euismod pri. Iusto percipit inciderint nec an, mel an utinam offendit. Audire discere instructior vel at, per eu elit aperiri. Vocent numquam in sit. Ne eam numquam blandit sapientem, eos ne ipsum philosophia, id meliore blandit mandamus mei.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="digital-modal3" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/digital-design-2.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Design Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, mei graecis tacimates te, sed cu nisl explicari, ex dicam tempor euismod pri. Iusto percipit inciderint nec an, mel an utinam offendit. Audire discere instructior vel at, per eu elit aperiri. Vocent numquam in sit. Ne eam numquam blandit sapientem, eos ne ipsum philosophia, id meliore blandit mandamus mei.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="digital-modal4" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/digital-design.jpeg">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Design Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, mei graecis tacimates te, sed cu nisl explicari, ex dicam tempor euismod pri. Iusto percipit inciderint nec an, mel an utinam offendit. Audire discere instructior vel at, per eu elit aperiri. Vocent numquam in sit. Ne eam numquam blandit sapientem, eos ne ipsum philosophia, id meliore blandit mandamus mei.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+																
+<div class="modal" id="print-modal1" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/Screen-Shot-2024-12-22-at-1.21.20-PM.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Print Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="print-modal2" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/Screen-Shot-2024-12-22-at-1.21.49-PM.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Print Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="print-modal3" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/Screen-Shot-2024-12-22-at-1.21.34-PM.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Print Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="print-modal4" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/Screen-Shot-2024-12-22-at-1.22.05-PM.png">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Print Name</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+
+
+
+
+
+																
+<div class="modal" id="apparel-modal1" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/t-shirt-with-logo-1.jpg">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Apparel Design</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="apparel-modal2" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/hoodie-with-pocket-2.jpg">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Apparel Design</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="apparel-modal3" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/beanie-2.jpg">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Apparel Design</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+				
+<div class="modal" id="apparel-modal4" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+	<div class="modal-content bg-dark text-light">
+		<!-- inside modal -->
+<button type="button" class="btn-success btn-close text-success start-0 text-start ms-2 mt-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+	
+	<div class="row vh-100 col-12 align-items-center justify-content-center">
+<div class="col-6">
+<img class="col-10 me-0 end-0 ms-auto text-end d-block" src="img/belt-2.jpg">
+</div>
+
+
+<div class="col-5 ms-3">
+<h1>Apparel Design</h1>
+<h5></h5>
+
+<p>Lorem ipsum dolor sit amet, quis alii ei mea. Dicat sententiae definiebas has ut, id has nostro viderer, est ad dicat veniam senserit. Sea denique consulatu consectetuer ad. No usu corpora principes gloriatur, in graeco accommodare eos. Vis ad dolore scriptorem, mei exerci utamur in, an vis labore fierent. At has sonet vivendum menandri.</p>
+<small>12/22/2024</small>
+</div>
+	  <!-- modal end -->
+</div><!-- row -->
+	</div>
+  </div>
+</div>
+
+	<script>
+		(function() {
+			var support = { transitions: Modernizr.csstransitions },
+				// transition end event name
+				transEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },
+				transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+				onEndTransition = function( el, callback ) {
+					var onEndCallbackFn = function( ev ) {
+						if( support.transitions ) {
+							if( ev.target != this ) return;
+							this.removeEventListener( transEndEventName, onEndCallbackFn );
+						}
+						if( callback && typeof callback === 'function' ) { callback.call(this); }
+					};
+					if( support.transitions ) {
+						el.addEventListener( transEndEventName, onEndCallbackFn );
+					}
+					else {
+						onEndCallbackFn();
+					}
+				};
+
+			new GridFx(document.querySelector('.grid'), {
+				imgPosition : {
+					x : -0.5,
+					y : 1
+				},
+				onOpenItem : function(instance, item) {
+					instance.items.forEach(function(el) {
+						if(item != el) {
+							var delay = Math.floor(Math.random() * 50);
+							el.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+							el.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+							el.style.WebkitTransform = 'scale3d(0.1,0.1,1)';
+							el.style.transform = 'scale3d(0.1,0.1,1)';
+							el.style.opacity = 0;
+						}
+					});
+				},
+				onCloseItem : function(instance, item) {
+					instance.items.forEach(function(el) {
+						if(item != el) {
+							el.style.WebkitTransition = 'opacity .4s, -webkit-transform .4s';
+							el.style.transition = 'opacity .4s, transform .4s';
+							el.style.WebkitTransform = 'scale3d(1,1,1)';
+							el.style.transform = 'scale3d(1,1,1)';
+							el.style.opacity = 1;
+
+							onEndTransition(el, function() {
+								el.style.transition = 'none';
+								el.style.WebkitTransform = 'none';
+							});
+						}
+					});
+				}
+			});
+		})();
+	</script>
+	
+
+</body></html>
